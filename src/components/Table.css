@@ -1,0 +1,45 @@
+.Table_Content {
+  color: rgba(114, 114, 114);
+  background-color: rgb(226, 214, 180);
+  width: 100%;
+}
+
+.Table_Head{
+  color: rgb(206, 132, 122);
+  font-size: 18px;
+  height: 60px;
+}
+
+.Table_Head th {
+  width: 50px;
+}
+
+.Table_Body{
+  background-color:rgb(214, 214, 214);
+  text-align: center;
+}
+
+.Table_Body td {
+  width: 50px;
+}
+
+.edit_button, .delete_button {
+  background-color: rgb(169, 191, 216);
+  border: rgb(122, 122, 122);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(114, 114, 114, 0.7);
+  color: rgb(102, 102, 102);
+  font-size: 15px;
+  margin: 5px;
+  height: 20px;
+  width: 60px;
+}
+
+.edit_button:hover, .delete_button:hover {
+  cursor: pointer;
+}
+
+.delete_button {
+  background-color: rgb(224, 145, 135);
+  color: rgb(102, 102, 102); 
+}

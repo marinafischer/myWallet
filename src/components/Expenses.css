@@ -1,0 +1,85 @@
+.Form_Content {
+  align-items: center;
+  background-color:rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: center;
+  margin: 0;
+}
+
+.Form_Content_Title {
+  color: rgb(206, 132, 122);
+  font-size: 25px;
+  margin: 0px;
+}
+
+.Form_Content_Body {
+  align-items: center;
+  color: rgb(122, 122, 122);
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-between;
+  width: 92%;
+}
+
+.Form_Input{
+  background-color: rgb(214, 214, 214);
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: rgb(206, 132, 122);
+  font-weight: 700;
+  font-size: 17px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.Form_Input:focus {
+  background-color: rgb(202, 202, 202);
+  box-shadow: 0 0 0 0;
+  border: none;
+  outline: 0;
+}
+
+.Number::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+
+.Number{
+  -moz-appearance: textfield;
+  appearance: textfield;
+  width: 60px;
+}
+
+.Description {
+  width: 120px;
+}
+
+.Select {
+  border-radius: 5px;
+}
+
+.Form_Button {
+  background-color: rgb(169, 216, 173);
+  border: rgb(122, 122, 122);
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(114, 114, 114, 0.7);
+  color: rgb(102, 102, 102);
+  font-size: 15px;
+  height: 40px;
+  width: 100px;
+}
+
+.Form_Button:hover{
+  cursor: pointer;
+}
+
+.Edit {
+  background-color: rgb(169, 191, 216) ;
+}
+
+.Editing {
+  border: 5px solid rgb(209, 155, 148);
+}

@@ -1,0 +1,26 @@
+.Header_Content {
+  align-items: center;
+  background-color: rgb(226, 214, 180);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.User_data {
+  color: rgb(206, 132, 122);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 30px 60px;
+}
+
+.Wallet_data{
+  color: rgb(206, 132, 122);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 30px 60px;
+}
+
+.Wallet_total{
+  font-weight: 900;
+}
