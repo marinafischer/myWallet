@@ -1,3 +1,5 @@
+Project built during the Trybe course.
+
 Application that simulates a wallet with exchange for reais, see the working page on this website:
 https://6206d3b6ba5b0350c8cf65e5--isnt-marinafischer-awesome.netlify.app/
 
